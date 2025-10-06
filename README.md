@@ -30,11 +30,6 @@ The application requires the following Python packages:
 - pyvis : Graph visualization
 - streamlit : Web UI framework
 
-Install all required dependencies using the provided pyproject.toml file:
-
-```bash
-uv sync
-```
 
 ### Setup
 
@@ -51,6 +46,13 @@ uv sync
    OPENAI_API_KEY=your_openai_api_key_here
    GROQ_API_KEY=your_openai_api_key_here
    ```
+
+3. Install all required dependencies using the provided pyproject.toml file:
+
+```bash
+pip install uv
+uv sync
+```
 
 ## Running the Application
 
